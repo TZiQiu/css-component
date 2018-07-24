@@ -1,0 +1,39 @@
+
+.wrapper{padding:30px;}
+.wrapper-in{
+	color:#fff;
+	padding:0 25px 50px;
+	background:rgba(35,9,36,.5);
+	box-shadow: 0 -2px 6px rgba(255,255,255,.2),
+				-2px 0 6px rgba(255,255,255,.2),
+				0 2px 6px rgba(255,255,255,.2),
+				2px 0 6px rgba(255,255,255,.2);
+				
+;
+}
+.login-bg{background-image: url(../img/login-bg.jpg);background-size:100% 100%;position:fixed;top:0;left:0;right:0;z-index: -1;height:100%;min-height: 480px;}
+.logo{text-align: center;padding:75px 0}
+.logo img{height:50px;}
+.sub-bar{position:absolute;left:0;right:0;bottom:0;padding:20px}
+.btn-login{width:100%;background-color:#0dd5ad;border-color:#0dd5ad;color:#fff}
+.input-group{border-bottom: 1px solid #999999;}
+.input-group .input{border:none;background:transparent;color:#14f8ca}
+.input-group .input-group-addon{border:none;background: transparent;color:#14f8ca}
+.input-group-addon .iconfont{
+	float: left;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    opacity:1; 
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   opacity:1;
+}
+
+input:-ms-input-placeholder{
+   opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    opacity:1;
+}

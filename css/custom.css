@@ -1,0 +1,127 @@
+.f-theme{color:}
+.btn-theme{color:#fff;background-color:#}
+.lable-theme{color:#fff;background-color:#}
+/*布局-类用户头像栏*/
+.layout-avatar{ 
+	width:80px;
+	height:80px;
+	border-radius: 100%;
+	overflow: hidden;
+ }
+.layout-text{
+	width:calc(100% - 90px);
+  	color:#424242;
+}
+/*MUI组件重置*/
+.list-box .mui-navigate-right:not(.mui-btn){padding-right:30px}
+.list-box .mui-navigate-left:not(.mui-btn){padding-left:30px}
+/*基于MUI列表组*/
+.list-box .mui-table-view-cell::after{left:0}
+.un-border.mui-table-view::after,
+.un-border.mui-table-view::before{height:0}
+.un-border.mui-table-view-cell::after{height:0}
+.list-icon{padding-left:55px;}
+.list-icon::before{
+	content:'';
+	position:absolute;
+	top:0;left:15px;bottom:0;margin: auto;
+	width:32px;
+	height:32px!important;
+	}
+.list-icon>.list-icon-a:not(.mui-btn){
+	margin-left:-55px;
+}
+.list-btn-r{position:absolute;top:0;bottom:0;right:15px;margin:auto;height:32px;}
+.list-box-r{position:absolute;top:0;bottom:0;right:15px;margin:auto;display: inline-block;}
+.mui-navigate-right .list-btn-r{right:30px}
+.mui-navigate-right .list-box-r{right:30px}
+
+
+/*fixed-bar*/
+.fixed-bar {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    height: 44px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 0;
+    background-color: #f7f7f7;
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .85);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .85);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.fixed-bar .icon {
+    font-size: 24px;
+    position: relative;
+    z-index: 20;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*头部导航标签栏*/
+.head-bar {
+    top: 0;
+    -webkit-box-shadow: 0 1px 6px #ccc;
+    box-shadow: 0 1px 6px #ccc;
+}
+.fixed-bar .title {
+    right: 40px;
+    left: 40px;
+    display: inline-block;
+    overflow: hidden;
+    width: auto;
+    margin: 0;
+    text-overflow: ellipsis;
+    color:inherit
+}
+.head-bar.fixed-bar .icon {
+	color:inherit;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*底部选项卡*/
+.foot-tab-bar{
+	bottom: 0;
+	display: table;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	table-layout: fixed;
+	border-top: 0;
+	border-bottom: 0;
+	-webkit-touch-callout: none;
+}
+.foot-tab-bar .foot-tab-item {
+    display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #929292;
+}
+.foot-tab-bar .foot-tab-item.mui-active {
+    color: #007aff;
+}
+
+.foot-tab-bar .foot-tab-item .icon {
+    top: 3px;
+    width: 24px;
+    height: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.foot-tab-bar .foot-tab-item .icon ~ .foot-tab-label {
+    font-size: 11px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

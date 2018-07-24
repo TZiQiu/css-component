@@ -1,0 +1,14 @@
+.warpper{
+	height:100%;
+	min-height: 480px;
+}
+
+.login-bg{background-image: url(../img/login-bg.jpg);background-size:100% 100%;position:fixed;top:0;bottom:0;left:0;right:0;z-index: -1;}
+.logo{text-align: center;padding:50px 0}
+.logo img{height:80px;}
+.form-down{padding:0 20px;color:#fff;}
+.sub-bar{position:absolute;left:0;right:0;bottom:0;padding:20px}
+.btn-login{width:100%;background-color:rgba(0,0,0,.5);border-color:#55dafe;}
+.input-group .input{background: rgba(255,255,255,.4);color:#fff}
+.input-group .input-group-addon{background: rgba(255,255,255,.5);color:#fff}
+
